@@ -12,8 +12,8 @@ const mobileMenu = () => {
 
 }
 
-let rightBtn = document.querySelector('#right-btn');
-let leftBtn = document.querySelector('#left-btn');
+let rightBtn = document.getElementById('right-btn');
+let leftBtn = document.getElementById('left-btn');
 let pictures = document.querySelectorAll('.slider-images img');
 
 let imgNum = 0;
